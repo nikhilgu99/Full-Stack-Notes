@@ -1,0 +1,81 @@
+#addNote {
+    background-color: green;
+    border: 3px solid green;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    width: 100%;
+}
+
+#addNote:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+
+#deleteNote {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    margin-left: 1%;
+    padding: 5px;
+    width: 8%;
+}
+
+#deleteNote:hover {
+    background-color: firebrick;
+    border-color: firebrick;
+}
+
+#note {
+    background-color: grey;
+    border: 3px solid dodgerblue;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: gold;
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+#noteSection {
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+}
+
+#noteText {
+    border: 3px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 100%;
+}
+
+#inputSection{
+    margin-left: 37.5%;
+    width: 25%;
+}
+
+#title {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+<html>
+  <body>
+    <a href="/">
+      <h1 id="title" >Full Stack Notes</h1>
+    </a>
+
+    <div id="inputSection">
+      <input id="noteText" type="text" placeholder="Note" (keypress)="keyPressed($event)" [value]=inputValue>
+      <button id="addNote" (click)="addNote()">Add Note</button>
+    </div>
+
+    <div id="noteSection">
+      <p id="note" *ngIf="!loaded">No Notes Found</p>
+
+      <div *ngFor="let note of notes;let i=index;" id="{{i}}">
+        <p id="note" *ngIf="loaded">{{ note }}</p>
+        <button id="deleteNote" (click)="deleteNote($event)">X</button>
+      </div>
+    </div>
+
+  </body>
+</html>
